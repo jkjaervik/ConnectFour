@@ -1,0 +1,16 @@
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\bin\Debug\net5.0\ConnectFourConsole.exe
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\bin\Debug\net5.0\ConnectFourConsole.deps.json
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\bin\Debug\net5.0\ConnectFourConsole.runtimeconfig.json
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\bin\Debug\net5.0\ConnectFourConsole.runtimeconfig.dev.json
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\bin\Debug\net5.0\ConnectFourConsole.dll
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\bin\Debug\net5.0\ref\ConnectFourConsole.dll
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\bin\Debug\net5.0\ConnectFourConsole.pdb
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\obj\Debug\net5.0\ConnectFourConsole.csprojAssemblyReference.cache
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\obj\Debug\net5.0\ConnectFourConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\obj\Debug\net5.0\ConnectFourConsole.AssemblyInfoInputs.cache
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\obj\Debug\net5.0\ConnectFourConsole.AssemblyInfo.cs
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\obj\Debug\net5.0\ConnectFourConsole.csproj.CoreCompileInputs.cache
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\obj\Debug\net5.0\ConnectFourConsole.dll
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\obj\Debug\net5.0\ref\ConnectFourConsole.dll
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\obj\Debug\net5.0\ConnectFourConsole.pdb
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\obj\Debug\net5.0\ConnectFourConsole.genruntimeconfig.cache
