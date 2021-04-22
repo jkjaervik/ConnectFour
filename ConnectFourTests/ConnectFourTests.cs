@@ -20,5 +20,14 @@ namespace ConnectFourTests
             // Period ('.') signifies an empty tile
             Debug.Assert(board.GetDisc(column, row) == '.');
         }
+
+        [Fact]
+        public void TestDropDisc()
+        {
+            var board = new GameBoard();
+            int column = 0;
+            board.DropDiscDownColumn('X', column);
+            Debug.Assert(board.GetDisc(0, 0) == 'X');
+        }
     }
 }
