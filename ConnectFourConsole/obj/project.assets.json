@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "ConnectFour.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ConnectFour.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConnectFour.Shared.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ConnectFour.Shared/1.0.0": {
+      "type": "project",
+      "path": "../ConnectFour.Shared/ConnectFour.Shared.csproj",
+      "msbuildProject": "../ConnectFour.Shared/ConnectFour.Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "ConnectFour.Shared >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\joachim.kjervik\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Code\\Blazor\\ConnectFourCore\\ConnectFour.Shared\\ConnectFour.Shared.csproj": {
+              "projectPath": "D:\\Code\\Blazor\\ConnectFourCore\\ConnectFour.Shared\\ConnectFour.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "ConnectFourConsole/1.0.0": {
+        "dependencies": {
+          "ConnectFour.Shared": "1.0.0"
+        },
         "runtime": {
           "ConnectFourConsole.dll": {}
+        }
+      },
+      "ConnectFour.Shared/1.0.0": {
+        "runtime": {
+          "ConnectFour.Shared.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ConnectFourConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConnectFour.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

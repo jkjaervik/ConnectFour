@@ -1,6 +1,6 @@
-using System.Diagnostics;
 using ConnectFour.Shared.Extensions;
 using ConnectFour.Shared.Models;
+using ConnectFour.Shared.Utils;
 using Xunit;
 
 namespace ConnectFourTests
@@ -25,9 +25,7 @@ namespace ConnectFourTests
         [Fact]
         public void TestDropDisc()
         {
-            var board = new GameBoard();
-            board.DropDiscDownColumn('X', 0);
-            board.DropDiscDownColumn('O', 2);
+            var board = GameSimulator.BuildBoard("02");
             /*
              * 1 | . . . . . . . |
              * 0 | X . O . . . . |
@@ -43,9 +41,7 @@ namespace ConnectFourTests
         [Fact]
         public void TestStacking()
         {
-            var board = new GameBoard();
-            board.DropDiscDownColumn('X', 3);
-            board.DropDiscDownColumn('O', 3);
+            var board = GameSimulator.BuildBoard("33");
             /*
              * 2 | . . . . . . . |
              * 1 | . . . O . . . |
@@ -59,6 +55,20 @@ namespace ConnectFourTests
         }
 
         [Fact]
+        public void TestFullColumns()
+        {
+            var board = new GameBoard();
+            const int COLUMN = 3;
+            char[] pieces = {'X', 'O', 'X', 'O', 'X', 'O'};
+            foreach (var piece in pieces)
+            {
+                Assert.False(board.ColumnIsFull(COLUMN));
+                board.DropDiscDownColumn(piece, COLUMN);
+            }
+            Assert.True(board.ColumnIsFull(COLUMN));
+        }
+
+        [Fact]
         public void TestExtensionsMethod()
         {
          char[,] _grid = new char[6, 7];
@@ -68,5 +78,7 @@ namespace ConnectFourTests
          _grid.GetColumn(0);
 
         }
+
+
     }
 }

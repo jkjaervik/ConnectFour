@@ -14,3 +14,6 @@ D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\obj\Debug\net5.0\ConnectFourCo
 D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\obj\Debug\net5.0\ref\ConnectFourConsole.dll
 D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\obj\Debug\net5.0\ConnectFourConsole.pdb
 D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\obj\Debug\net5.0\ConnectFourConsole.genruntimeconfig.cache
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\bin\Debug\net5.0\ConnectFour.Shared.dll
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\bin\Debug\net5.0\ConnectFour.Shared.pdb
+D:\Code\Blazor\ConnectFourCore\ConnectFourConsole\obj\Debug\net5.0\ConnectFourConsole.csproj.CopyComplete
