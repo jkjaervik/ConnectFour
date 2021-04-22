@@ -25,9 +25,18 @@ namespace ConnectFourTests
         public void TestDropDisc()
         {
             var board = new GameBoard();
-            int column = 0;
-            board.DropDiscDownColumn('X', column);
+            board.DropDiscDownColumn('X', 0);
+            board.DropDiscDownColumn('O', 2);
+            /*
+             * 1 | . . . . . . . |
+             * 0 | X . O . . . . |
+             *   -----------------
+             *  /  0 1 2 3 4 5 6  \ 
+             */
             Debug.Assert(board.GetDisc(0, 0) == 'X');
+            Debug.Assert(board.GetDisc(1, 0) == GameBoard.EMPTY_SLOT);
+            Debug.Assert(board.GetDisc(2, 0) == 'O');
+            Debug.Assert(board.GetDisc(0, 1) == GameBoard.EMPTY_SLOT);
         }
     }
 }
