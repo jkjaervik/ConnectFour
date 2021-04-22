@@ -13,13 +13,13 @@ namespace ConnectFourTests
             var board = new GameBoard();
 
             // Bottom row has index 0
-            var row = 0;
+            const int ROW = 0;
 
             // Left-most column has index 0
-            var column = 0;
+            const int COLUMN = 0;
 
             // Period ('.') signifies an empty tile
-            Assert.True(board.GetDisc(column, row) == GameBoard.EMPTY_SLOT, "Empty board");
+            Assert.True(board.GetDisc(COLUMN, ROW) == GameBoard.EMPTY_SLOT, "Empty board");
         }
 
         [Fact]
@@ -78,7 +78,5 @@ namespace ConnectFourTests
          _grid.GetColumn(0);
 
         }
-
-
     }
 }

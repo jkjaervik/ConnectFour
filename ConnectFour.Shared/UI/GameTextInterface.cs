@@ -5,6 +5,46 @@ namespace ConnectFour.Shared.UI
 {
     public class GameTextInterface
     {
+        private GameBoard _board;
+        public GameTextInterface()
+        {
+            _board = new GameBoard();
+        }
+
+        public void StartGameLoop()
+        {
+            ShowGameBoard(_board);
+            while (!_board.GameIsOver())
+            {
+                PlayAMove();
+                ShowGameBoard(_board);
+            }
+        }
+
+        private void PlayAMove()
+        {
+            char piece = _board.GetNextPiece();
+            ShowNextPiece(piece);
+            int column = PromptColumnChoice();
+            _board.DropDiscDownColumn(piece, column);
+        }
+
+        private static void ShowNextPiece(char piece) =>
+            Console.WriteLine($"Next piece to be dropped is {piece}");
+
+        private int PromptColumnChoice()
+        {
+            while (true)
+            {
+                Console.Write("Which column do you choose? ");
+                var column = Convert.ToInt32(Console.ReadLine());
+                if (_board.IsValidColumn(column))
+                    return column;
+                Console.WriteLine("Invalid column, try again! ");
+            }
+        }
+
+
         private static string GameBoardRowToString(GameBoard board, int row)
         {
             const int NUMBER_OF_COLUMNS = 7;
