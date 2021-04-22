@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFourCore", "ConnectF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFourConsole", "ConnectFourConsole\ConnectFourConsole.csproj", "{99E8B539-A3AF-48CD-89D9-C38994E3F191}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFourTests", "ConnectFourTests\ConnectFourTests.csproj", "{A2BE63E5-43A6-4760-8B20-EA377D2D94ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFour.Shared", "ConnectFour.Shared\ConnectFour.Shared.csproj", "{68F20A8D-E0FD-4302-A0E6-EE72A65AD6B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{99E8B539-A3AF-48CD-89D9-C38994E3F191}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99E8B539-A3AF-48CD-89D9-C38994E3F191}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99E8B539-A3AF-48CD-89D9-C38994E3F191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2BE63E5-43A6-4760-8B20-EA377D2D94ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BE63E5-43A6-4760-8B20-EA377D2D94ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BE63E5-43A6-4760-8B20-EA377D2D94ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BE63E5-43A6-4760-8B20-EA377D2D94ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F20A8D-E0FD-4302-A0E6-EE72A65AD6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F20A8D-E0FD-4302-A0E6-EE72A65AD6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F20A8D-E0FD-4302-A0E6-EE72A65AD6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F20A8D-E0FD-4302-A0E6-EE72A65AD6B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
