@@ -9,11 +9,8 @@ namespace ConnectFour.Shared.Utils
             var board = new GameBoard();
             for (var i = 0; i < sequence.Length; ++i)
             {
-                var isEvenMove = i % 2 == 0;
-                var piece = isEvenMove ? 'X' : 'O';
-                var number = sequence.Substring(i, 1);
-                var column = int.Parse(number);
-                board.DropDiscDownColumn(piece, column);
+                var column = int.Parse(sequence.Substring(i, 1));
+                board.DropDiscDownColumn(board.GetNextPiece(), column);
             }
 
             return board;
